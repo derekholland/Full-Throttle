@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>App Name: A Coding Project By Mark Spectre</title>
+    <title>FULL THROTTLE: A Coding Project By Derek Holland</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -21,22 +21,26 @@
       src="https://kit.fontawesome.com/5db21ba9c6.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/site.css" />
-    <link rel="icon" type="image/png" href="img/favicon_io/favicon-16x16.png" />
-
-    <!-- === Nav Section === -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" />
   </head>
   <!-- h-100 (height = 100) fills the height of the browser -->
   <body class="d-flex flex-column h-100">
+    <!-- === Nav Section === -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="img/DH-blue-text.svg"
-            alt=""
-            class="nav-logo d-inline-block align-text-top"
-          />
-          App Name</a
+        <img src="img/D-logo-1.svg" class="d-logo-nav" alt="" />
+        <a class="navbar-brand racing" href="index.html">
+          <span class="ms-2">FULL THROTTLE</span></a
         >
         <button
           class="navbar-toggler"
@@ -63,11 +67,16 @@
               <a class="nav-link" href="code.html">The Code</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="#">Git Repo</a>
+              <a
+                class="nav-link"
+                target="_blank"
+                href="https://github.com/derekholland/Full-Throttle"
+                >Git Repo</a
+              >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" target="_blank" href="#">About</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -78,13 +87,12 @@
         <div class="row g-5 py-5 row-cols-1 row-cols-lg-2">
           <div class="col order-last order-lg-first">
             <h1 class="display-5 fw-bold lh-1 mb-3">
-              App Name: A Coding Project
+              FULL THROTTLE: A Coding Project
             </h1>
             <h4 class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto amet sed iure nostrum minima tempore mollitia, itaque
-              minus incidunt qui labore explicabo rerum optio nulla, dignissimos
-              modi. Necessitatibus, recusandae praesentium!
+              Live life on loop at a time. A javascript coding exercise using
+              loops. Write a program that displays the numbers from 0 to l00.
+              Display the even numbers in <strong>BOLD</strong>.
             </h4>
             <ul class="fa-ul pt-2 checklist">
               <li>
@@ -118,7 +126,6 @@
             </ul>
             <div>
               <a
-                href=""
                 type="button"
                 class="btn btn-outline-dark btn-lg px-4 me-md-2"
                 href="app.html"
@@ -162,49 +169,49 @@
       <div class="container-fluid">
         <!-- lg and above 3 columns, below large 1 column -->
         <div class="row row-cols-1 row-cols-lg-3 gy-2">
-          <div class="col order-last order-lg-first text-light">
+          <!-- column 1 email -->
+          <div
+            class="
+              col
+              order-lg-first order-last
+              text-light
+              d-flex
+              align-items-center
+              justify-content-center
+            "
+          >
             <div>
               <span class="text-muted">&copy;2021</span> Derek Holland |
               derekhollandwebdev@gmail.com
             </div>
           </div>
-          <div
-            class="
-              col
-              d-flex
-              align-items-center
-              justify-content-start justify-content-lg-center
-            "
-          >
+          <!-- column 2 logo -->
+          <div class="col d-flex align-items-center justify-content-center">
             <img
-              src="img/DEREK HOLLAND-white-text.svg"
+              class="d-logo"
+              src="img/D-logo-1.svg"
               alt="Derek Holland logo"
-              height="36"
             />
           </div>
-          <div
-            class="
-              col
-              d-flex
-              align-items-center
-              justify-content-start justify-content-lg-end
-            "
-          >
+          <!-- column 3 social icons -->
+          <div class="col d-flex align-items-center justify-content-center">
             <div class="row">
               <div class="col social">
-                <a href="#" target="_blank"
+                <a
+                  href="https://linkedin.com/in/derek-holland-93ab0617b/"
+                  target="_blank"
                   ><i class="fab fa-linkedin fa-2x"></i
                 ></a>
               </div>
               <div class="col social">
-                <a href="#" target="_blank"
+                <a href="https://github.com/derekholland" target="_blank"
                   ><i class="fab fa-github fa-2x"></i
                 ></a>
               </div>
               <div class="col social">
-                <a href="#" target="_blank"
+                <!-- <a href="#" target="_blank"
                   ><i class="fab fa-twitter fa-2x"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
           </div>

@@ -1,8 +1,17 @@
 :root {
   --primary-color: #1d5888;
-  --secondary-color: #ff993b;
+  --secondary-color: #007bff;
   --dark-color: #292929;
   --white-color: #ebf0ec;
+}
+
+.odd {
+  font-weight: 100;
+}
+
+.even {
+  font-weight: bold;
+  font-size: large;
 }
 
 body {
@@ -81,4 +90,22 @@ pre[class*="language-"] {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
+}
+
+.racing {
+  font-family: "Racing Sans One", cursive;
+}
+.d-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.d-logo-nav {
+  width: 30px;
+  height: 30px;
+}
+
+.logobyname {
+  width: 35px;
+  height: 35px;
 }
